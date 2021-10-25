@@ -32,7 +32,7 @@ export default class Conversor extends Component {
               <h2>{this.props.moedaA} para  {this.props.moedaB} </h2>
               <input type="text" onChange={(event)=>{this.setState({moedaA_valor:event.target.value})}}></input>
               <input type="button" value="Converter" onClick={this.converter} ></input>
-              <h2> {this.state.moedaB_valor} </h2>
+              <h2> R$ {this.state.moedaB_valor}  </h2>
 
            </div>
         )

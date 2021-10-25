@@ -1,1 +1,10 @@
 
+.linha{
+  
+  background-color: ivory ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  text-align: center;
+}
